@@ -46,8 +46,10 @@ class _HomeState extends State<Home> {
           children: <Widget>[
             Text(
               "Pessoas: $_quantPessoa",
-              style:
-                  TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
+              style: TextStyle(
+                  color: Colors.white,
+                  fontWeight: FontWeight.bold,
+                  decoration: TextDecoration.none),
             ),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
@@ -89,7 +91,8 @@ class _HomeState extends State<Home> {
               style: TextStyle(
                   color: Colors.white,
                   fontStyle: FontStyle.italic,
-                  fontSize: 25),
+                  fontSize: 25,
+                  decoration: TextDecoration.none),
             )
           ],
         ),
